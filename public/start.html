@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+    <div id="start">
+        <h1>Enter your username to continue</h1>
+        <input v-bind:value="name" id="playerName" type="text">
+        <button v-on:click="goToGame">Enter</button>
+    </div>
+    <script src="start.js"></script>
+<a href="index.html">go</a>
+</body>
+</html>
